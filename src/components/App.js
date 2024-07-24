@@ -7,7 +7,7 @@ const App = () => {
   const [displayInput, setDisplayInput] = useState("");
 
   function getInput(event) {
-    setDisplayInput(event.target.value);
+    setDisplayInput(`Hello ${event.target.value}!`);
   }
  
   return (
