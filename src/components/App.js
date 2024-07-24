@@ -4,12 +4,10 @@ import './../styles/App.css';
 
 const App = () => {
 
-  const [displayInput, setDisplayInput] = useState("");
-
+const [displayInput, setDisplayInput] = useState("");
   function getInput(event) {
-    setDisplayInput(`Hello ${event.target.value}!`);
+    setDisplayInput(`Hello ${event.target.value}!`)
   }
- 
   return (
     <div>
         <p>Enter your name:</p>
