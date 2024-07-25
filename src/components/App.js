@@ -10,7 +10,7 @@ const [displayInput, setDisplayInput] = useState("");
   }
   return (
     <div>
-        <p>Enter your name:</p>
+        
         <input type="text"  onChange={getInput}></input>
         <p>Hello {displayInput}!</p>
     </div>
