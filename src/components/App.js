@@ -6,13 +6,13 @@ const App = () => {
 
 const [displayInput, setDisplayInput] = useState("");
   function getInput(event) {
-    setDisplayInput(`Hello ${event.target.value}!`)
+    setDisplayInput(event.target.value);
   }
   return (
     <div>
         <p>Enter your name:</p>
         <input type="text"  onChange={getInput}></input>
-        <p>{displayInput}</p>
+        <p>Hello {displayInput}!</p>
     </div>
   )
 }
